@@ -1,0 +1,31 @@
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	border: solid 5px;
+	border-color: #191970;
+	border-radius: 10px;
+	background: #00000085;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+p {
+	color: #FFFFFF;
+}
+
+.crop img {
+        width: 320px;
+        height: 180px;
+    }
+.terms {
+	color: #FFFFFF;
+}
+body {
+	background-image: url("https://mixinglight.com/wp-content/uploads/2015/08/MG_9347_HDR.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
