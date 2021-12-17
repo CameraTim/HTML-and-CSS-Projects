@@ -4,19 +4,11 @@
 		<title>Welcome!  You've got no mail!</title>
 		<meta charset="utf-8">
 		<style>
-		table, td, th {
-		
-		}
 		table.a {
 			border: solid 5px;
 			border-color: #191970;
 			border-radius: 10px;
 			width:200px;
-		}
-		table.b {
-			text-align: center;
-			border: 1px #000000;
-			border-radius: 5px;
 		}
 		img.a {
 		object-fit: cover;
@@ -31,15 +23,18 @@
 		object-position: 40% 0px;
 		}
 		</style>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>
 	<body>
 	<section>
 		<div align="center">
 			<nav>
+				<ul>
 				<a href="#Home" id="link"<li>Home</a>
 				<a href="#Photos" id="link"<li>Photos</a>
 				<a href="#Videos" id="link"<li>Videos</a>
 				<a href="#Rentals" id="link"<li>Rentals</a>
+				</ul>
 			</nav>
 		</div>
 		<div align="center" id="home">
@@ -101,17 +96,17 @@
 						Please provide your contact information.
 					</p>
 					<div>
-					<table class="b">
 						<form action="" method="get">
-							<th><input class="rsvp" type="text" value="First Name"><th>
-							<th><input class="rsvp" type="text" value="Last Name"></th>
-							<th><input class="rsvp" type="text" value="Email Address"></th>
-							<th><input class="rsvp" type="text" value="Phone Number"></th>							</tr>
-					</table>
-								<input type="submit" value="Submit">
+							<input type="text" value="First Name"><br>
+							<input type="text" value="Last Name"><br>
+							<input type="text" value="Email Address"><br>
+							<input type="text" value="Phone Number"><br>
+							<div>
+								<input class="sub" type="submit" value="Submit">
+							</div>
 						</form>
 						<div>
-						<label class="terms">Terms and Conditions</label>
+							<label class="terms">Terms and Conditions</label>
 						</div>
 					</div>
 				</div>
