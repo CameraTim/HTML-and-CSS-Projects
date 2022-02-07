@@ -1,0 +1,191 @@
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	border: solid 5px;
+	border-color: #191970;
+	border-radius: 10px;
+	background: #00000085;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+img {
+	margin-bottom: -4px;
+}
+
+table.a {
+	border: solid 5px;
+	border-color: #191970;
+	border-radius: 10px;
+	width:200px;
+}
+
+img.shadow {
+	transition: .5s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+.crop img {
+	margin-top: 5px;
+	display: block;
+	width: 320px;
+	height: 180px;
+	object-fit: cover;
+}
+
+.terms {
+	color: #FFFFFF;
+}
+
+body {
+	background-image: url("https://mixinglight.com/wp-content/uploads/2015/08/MG_9347_HDR.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row > .column {
+	padding: 0 8px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 11%;
+	max-height: 69px;
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.lightbox-photos {
+	position: relative;
+	display: block;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+}
+
+.X {
+	color: white;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	font-size: 35px;
+	font-weight: bold;
+	z-index: 2;
+}
+
+.X:hover {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.X:focus {
+  color: rgb(124, 102, 102);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.myPhotos {
+	display: none;
+}
+
+.boxPhotoSize {
+	display: block;
+	max-height: 501px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pagenumber {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.titles {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+
+.preview {
+	opacity: 0.6;
+	display: block;
+	max-height: 63px;
+	max-width: 132px;
+	object-fit: cover;
+}
+
+.active, .preview:hover {
+	opacity: 1;
+}
